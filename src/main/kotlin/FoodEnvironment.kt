@@ -18,4 +18,8 @@ class FoodEnvironment(vararg ags : Actor) : Environment(*ags) {
     override fun sense(agent: Actor) {
 
     }
+
+    override fun step() {
+        super.step()
+    }
 }
